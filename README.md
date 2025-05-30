@@ -17,7 +17,7 @@ Bot ini adalah sebuah bot sederhana yang fungsinya sebagai berikut
 
 ### Step pertama
 
-Buka terminal dan jalankan kode
+Buka terminal dan jalankan perintah
 ```
 pip install discord.py python-dotenv PyNaCl
 ```
@@ -26,10 +26,14 @@ Setelah diinstall lalu jalankan kode berikut ini agar package tidak hilang
 pip freeze > requirements.txt
 ```
 
+Untuk menjalankan bot jalankan perintah
+```
+py bot.py
+```
 ### 
 
 ### Hal yang perlu diperhatikan
 
-Pastikan saat kamu menambahkan bot discord ke server bagian scope: bot dan applications.commands. dipilih.
+Pastikan saat kamu menambahkan bot discord ke server, bagian scope: bot dan applications.commands. dipilih.
 Di bagian "Bot Permissions", pilih "Send Messages", "Embed Links", "Attach Files", "Read Message History", "Manage Webhooks", dan "Connect".
 
