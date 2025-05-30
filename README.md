@@ -35,5 +35,6 @@ py bot.py
 ### Hal yang perlu diperhatikan
 
 Pastikan saat kamu menambahkan bot discord ke server, bagian scope: bot dan applications.commands. dipilih.
-Di bagian "Bot Permissions", pilih "Send Messages", "Embed Links", "Attach Files", "Read Message History", "Manage Webhooks", dan "Connect".
+
+Di bagian Bot Permissions, pilih "Send Messages", "Embed Links", "Attach Files", "Read Message History", "Manage Webhooks", dan "Connect".
 
